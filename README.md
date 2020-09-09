@@ -20,11 +20,13 @@ To create a file - in any folder available for writing - long click on any file 
 In the menu that appears, select "Create", then - in the input field, enter file name (let's say test.sh) and click "File" ... 
 In it write a program in Shell or Bash, let's say:
 
+[code]
 while [1] 
 do 
 date 
 sleep 1 
 done
+[/code]
 
 And press the "BACK" button (the exit button from the application) or from the menu (in the upper right corner there are three dots) the "Run" button ... 
 The program will go into execution mode and the output of the result will appear on the screen, while the text is highlighted in blue .. . 
@@ -38,6 +40,8 @@ If the assembly went without errors, we get a signed .apk at the output file and
 Compilation and assembly data can be viewed in the "log.txt" file (from the file manager, press "Home") ... 
 Also, with this "Home" button, you can get into the internal memory of the phone (it is useful if you want to change something) ... 
 Here is a Java program that recursively deletes all folders with a given name ("build") from the memory card ("/ sdcard"):
+
+[code]
 
 import java.util. *; 
 import java.io. *; 
@@ -91,6 +95,9 @@ public class Main
 	} 
 }
 
+[/code]
+
+#
 Here are the sources:
 Attached fileMain.zip(999 bytes)
 
